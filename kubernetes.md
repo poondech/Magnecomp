@@ -231,7 +231,7 @@ spec:
   type: NodePort
   ports:
   - port: 80
-    protocal: TCP
+    protocol: TCP
     targetPort: 80
     nodePort: 31000
   selector:
